@@ -1,3 +1,14 @@
 body{
   background-color: cyan;
 }
+
+div{
+  height: 150px;
+  width: 150px;
+  background-color: lightgreen;
+  margin:
+}
+
+p{
+  font-size: 12px;
+}
