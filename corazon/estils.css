@@ -1,0 +1,36 @@
+body{
+  background-color: grey;
+  margin: 0px;
+  padding: 0px;
+}
+.contenedor{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.corazon{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.corazon::before{
+
+  content:none;
+  position: absolute;
+  transform: translateY(-100px);
+  height: 200px;
+  background-color: red;
+}
+
+.corazon::after{
+
+  content:none;
+  position: absolute;
+  transform: translateX(-100px);
+  height: 200px;
+  background-color: red;
+}
